@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/gokcecandemir/Learning C/first_c_program'
+relocations:     []
+...
