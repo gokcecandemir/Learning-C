@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/gokcecandemir/Learning C/variables2'
+relocations:     []
+...

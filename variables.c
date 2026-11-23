@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// variable -> a reusable container for a value
 int main() {
 // integer 
     int age = 18;
@@ -28,8 +28,26 @@ int main() {
     
     // double : Stores approximately 15–16 significant digit
 
-    double pi = 3.141592653589793;
+    double pi = 3.14159265358979;
+    double e = 2.71828183;
+
+    printf("The value of pi is %lf\n", pi);
+    printf("Hey it's pi take my number %.8lf\n", pi);
+
+    // You could use %f too
+
+    printf("Here is the value of e -> %f\n", e);
     
 
+    // char (character)
+
+    char initial_name = 'G';
+    char currency = '$';
+    char symbol = '?';
+    
+    printf("The symbol is %c\n", symbol);
+    printf("The currency is : %c\n", currency);
+    printf("My initial name is %c\n", initial_name);
+    
     return 0;
 }
