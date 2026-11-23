@@ -24,6 +24,7 @@ int main() {
     bool is_online = 1;
     bool isOnline = true;
     bool isOfline = false;
+    bool is_ofline = 0;
 
 
 
