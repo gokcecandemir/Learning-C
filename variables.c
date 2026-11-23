@@ -1,7 +1,7 @@
 #include <stdio.h>
 // variable -> a reusable container for a value
 int main() {
-// integer 
+// integer -> 4 bytes
     int age = 18;
     int year = 2026;
     int quantitity = 8;
@@ -10,7 +10,7 @@ int main() {
     printf("We're in %d\n", year);
     printf("You've got %d items\n", quantitity);
 
-// float 
+// float -> 4 bytes
 
     float gpa = 3.5;
     float temperature = 88.8;
@@ -26,7 +26,7 @@ int main() {
     printf("The temperature is %.1f\n", temperature);
     printf("The price you pay %.1f\n", price);
     
-    // double : Stores approximately 15–16 significant digit
+    // double : Stores approximately 15–16 significant digit -> 8 bytes
 
     double pi = 3.14159265358979;
     double e = 2.71828183;
